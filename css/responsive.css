@@ -1,0 +1,103 @@
+/* CSS Document */
+.social{
+	/*float:right;*/
+	font-size:24px;
+}
+.social i{
+	color:#ffffff;
+	margin:0 2% 0 2%;
+	transition:ease all 0.4s;
+	cursor:pointer;
+	padding:4% 0 4%;
+
+}
+.social i:hover{
+	color:#bc9b1b;
+}
+.bigTitle{
+	position:fixed;
+	top:40%;
+	left:11%;
+}
+.bigTitle h1{
+	font-size:90px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.bigTitle h5{
+	color:#d5e0d5;
+	font-size:18px;
+	}
+.padTopHalf{
+	padding-top:50%;
+}
+.padTopMedium{
+	padding-top:35%;
+}
+.padTopLow{
+	padding-top:20%;
+}
+.navbar-collapse {
+	background:transparent;
+}
+@media screen and (orientation:portrait){
+	.social{
+	width:100%;
+	text-align:center;
+	font-size:32px;
+	padding-top:8px;
+}
+.social i{
+	width:16%;
+
+}
+.padTopHalf{
+	padding-top:160%;
+}
+.bigTitle{
+	position:fixed;
+	top:32%;
+	left:3%;
+}
+.bigTitle h1{
+	font-size:60px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.navbar-collapse {
+	background:rgba(0, 0, 0, 0.75);
+}
+	
+}
+@media screen and (orientation:landscape) and (max-width:1100px){
+	.social{
+	width:100%;
+	text-align:center;
+	font-size:32px;
+	padding-top:8px;
+}
+.social i{
+	width:16%;
+
+}
+.padTopHalf{
+	padding-top:50%;
+}
+.bigTitle{
+	position:fixed;
+	top:28%;
+	left:8%;
+}
+.bigTitle h1{
+	font-size:60px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.navbar-collapse {
+	background:rgba(0,0,0,0.8);
+}
+	
+}

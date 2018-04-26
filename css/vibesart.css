@@ -1,0 +1,12 @@
+.vibesart{
+	position:fixed;
+	z-index:888;
+	top:48%;
+	right:48%;
+	box-shadow:0px 0px 20px #000;
+	cursor:pointer;
+}
+.openVibesArt{
+	cursor:pointer !important;
+}
+
